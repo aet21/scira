@@ -1,0 +1,35 @@
+@article{Chen2017,
+    Author={Chen Y,
+    and Widschwendter M,
+    and Teschendorff AE, },
+    Title={Systems-epigenomics inference of transcription factor activity implicates aryl-hydrocarbon-receptor inactivation as a key event in lung cancer development},
+    Journal={Genome Biol},
+    Year={2017},
+    Volume={18},
+    Pages={236}
+}
+
+
+@article{Yang2017,
+    Author={Yang L,
+    and Wei-Hua Wang,
+    and Wei-Lin Qiu,
+    and Zhen Guo,
+    and Erfei Bi,
+    and Cheng-Ran Xu, },
+    Title={A Single-Cell Transcriptomic Analysis Reveals Precise Pathways and Regulatory Mechanisms Underlying Hepatoblast Differentiation},
+    Journal={Hepatology},
+    Year={2017},
+    Volume={66},
+    Pages={1387-1401}
+}
+
+@article{Teschendorff2020,
+    Author={Teschendorff AE,
+    and Ning Wang},
+    Title={Improved detection of tumor suppressor events in single-cell RNA-Seq data},
+    Journal={Submitted},
+    Year={2020},
+    Volume={},
+    Pages={}
+}
