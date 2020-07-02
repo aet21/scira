@@ -70,6 +70,7 @@ cholangiocytes only making up 5-10% of liver cells in bulk liver tissue.
 Finally, we consider another application to identify tumor suppressor
 events at single-cell resolution in colon cancer.
 </p>
+
 Construction and validation of a tissue-specific regulatory network
 ===================================================================
 
@@ -153,7 +154,7 @@ function:
     ## Warning: Removed 782 rows containing missing values (geom_text).
 
 ![The liver-specific regulatory
-network](scira_files/figure-markdown_strict/chunk2c-1.png)
+network](https://github.com/aet21/scira/blob/master/vignettes/scira_files/figure-markdown_strict/chunk2c-1.png)
 
 Estimation of regulatory activity and validation of liver-specific regulons
 ---------------------------------------------------------------------------
