@@ -154,7 +154,7 @@ function:
     ## Warning: Removed 782 rows containing missing values (geom_text).
 
 ![The liver-specific regulatory
-network](https://github.com/aet21/scira/blob/master/vignettes/scira_files/figure-markdown_strict/chunk2c-1.png)
+network](https://github.com/aet21/scira/tree/master/scira/vignettes/scira_files/figure-markdown_strict/chunk2c-1.png)
 
 Estimation of regulatory activity and validation of liver-specific regulons
 ---------------------------------------------------------------------------
