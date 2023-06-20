@@ -1,12 +1,13 @@
 > **Abstract: scira is an R-package aimed at estimating regulatory
-> activity of transcription factors in scRNA-Seq data. It leverages the
-> high-power of a large scale multi-tissue bulk gene expression dataset
-> (GTEX) to build tissue-specific regulons, which can subsequently be
-> applied to scRNA-Seq data to infer regulatory activity of
+> differentiation activity of transcription factors in scRNA-Seq data.
+> It leverages the high-power of a large scale multi-tissue bulk gene
+> expression dataset (GTEX) or a large database of sorted cell-types
+> to build tissue or cell-type specific regulons, which can subsequently be
+> applied to scRNA-Seq data to infer differentiation activity of
 > tissue-specific transcription factors at single-cell resolution. It is
 > particular aimed at scRNA-Seq studies profiling cancer or
 > preneoplastic cells, or normal cells exposed to some disease risk
-> factor, and may help to identify the tissue-specific regulatory
+> factor (e.g. age), and may help to identify the tissue-specific regulatory
 > networks that are disrupted early on in diseases like cancer.**
 
 Motivation and Background
@@ -27,7 +28,7 @@ in particular affect transcription factors themselves. We have developed
 'scira' to help obtain regulatory activity estimates in scRNA-Seq data.
 </p>
 <p>
-**scira** estimates regulatory activity in single cells by using
+**scira** estimates regulatory (differentiation) activity in single cells by using
 TF-regulons (Teschendorff AE and Wang 2020). A regulon is a set of
 genes, enriched for direct binding targets of the TF, which can be used
 to estimate the TF-binding activity of the TF. The members of the
@@ -653,8 +654,13 @@ Jolene Jie Lin Goh, Say Li Kong, et al. 2017. “Reference Component
 Analysis of Single-Cell Transcriptomes Elucidates Cellular Heterogeneity
 in Human Colorectal Tumors.” *Nat Genet* 49 (5): 708–18.
 
-Teschendorff AE, and Ning Wang. 2020. “Improved Detection of Tumor
-Suppressor Events in Single-Cell Rna-Seq Data.” *Submitted*.
+Teschendorff AE, and Wang N. 2020. “Improved Detection of Tumor
+Suppressor Events in Single-Cell Rna-Seq Data.” npj Genomic Medicine 2020
+ Oct 7;5:43. doi: 10.1038/s41525-020-00151-y.
+
+Maity AK, and Teschendorff AE. "Inference of age-associated transcription factor
+regulatory activity changes in single cells". Nat Aging 2022 Jun;2(6):548-561.
+doi: 10.1038/s43587-022-00233-9
 
 Yang L, Wei-Hua Wang, Wei-Lin Qiu, Zhen Guo, Erfei Bi, and Cheng-Ran Xu.
 2017. “A Single-Cell Transcriptomic Analysis Reveals Precise Pathways

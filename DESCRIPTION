@@ -1,0 +1,16 @@
+Package: scira
+Title: Scalable Inference of Regulatory Activity
+Version: 1.0.0
+Description: scira is an R package designed to obtain transcription factor regulatory activity estimates of tissue-specific transcription factors in single-cell RNA-Seq data. It is a tissue-centric approach, which first builds a tissue-specific regulatory network, consisting of tissue-specific transcription factors plus their associated regulons. Using these regulons, scira can then estimate corresponding regulatory activity in single-cells, and may be specially useful in the context of a high dropout rate. scira is aimed at identifying tissue-specific regulatory factors that are disrupted in cancer, preneoplastic lesions or in normal cells exposed to disease risk factors.
+Date: 2023-06-20
+Author: Andrew E. Teschendorff <andrew@sinh.ac.cn>
+Maintainer: Andrew E. Teschendorff <andrew@sinh.ac.cn>
+Depends: R (>= 4.3)
+Imports: parallel, corpcor, org.Hs.eg.db, limma, AnnotationDbi,
+        ggplot2, GGally, network, sna, scales
+Suggests: BiocStyle, knitr, rmarkdown, Biobase, Hmisc, marray, plotrix
+VignetteBuilder: knitr
+License: GPL-2
+LazyData: true
+URL: https://github.com/aet21/scira
+
